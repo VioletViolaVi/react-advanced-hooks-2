@@ -1,9 +1,8 @@
 import React from "react";
 import { Routes, Route } from "react-router-dom";
-import { useAuth } from "../../contexts";
 
 export default function Profile() {
-    const { user } = useAuth();
+    const user  = "";
     return (
         <>
             <h1>Well done!</h1>
