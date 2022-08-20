@@ -1,4 +1,4 @@
-import React, { Profiler } from "react";
+import React from "react";
 import { Routes, Route } from "react-router-dom";
 import ProtectedRoute from "./routes";
 import Home from "./pages/Home";
