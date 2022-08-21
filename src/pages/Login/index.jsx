@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import { Routes, Route } from "react-router-dom";
 
 export default function Login() {
     const [inputValue, setInputValue] = useState("");
