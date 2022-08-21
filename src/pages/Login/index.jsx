@@ -14,7 +14,7 @@ export default function Login() {
 
     return (
         <form onSubmit={handleSubmit}>
-            <input type="text" placeholder="username" onChange={handleInput} value={inputValue}/>
+            <input type="text" onChange={handleInput} value={inputValue} placeholder="username" autocomplete="off"/>
             <br />
             <input type="submit" />
         </form>
