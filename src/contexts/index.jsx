@@ -1,6 +1,6 @@
-import React, { useState, useContext } from "react";
+import React, { useState, useContext, createContext } from "react";
 
-const ___Context = React.createContext();
+const ___Context = createContext();
 
 export const ___Provider = ({ children }) => {
     const [$$$, set$$$] = useState();
